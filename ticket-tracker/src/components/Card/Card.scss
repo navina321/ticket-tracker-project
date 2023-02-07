@@ -1,0 +1,17 @@
+.card {
+    height: 375px;
+    width: 250px;
+    border: 2px solid darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin: 10px;
+
+    &__name{
+        margin: 10px;
+    }
+    &__role {
+        margin: 10px;
+    }
+}

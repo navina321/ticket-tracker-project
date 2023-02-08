@@ -6,7 +6,7 @@ import './CardContainer.scss'
 const CardContainer = () => {
 
     const cardJSX = team.map((member) => {
-        return <Card name ={member.name} id ={member.id} role ={member.role}/>
+        return <Card name ={member.name} id ={member.id} role ={member.role} key = {member.id}/>
     })
 
 

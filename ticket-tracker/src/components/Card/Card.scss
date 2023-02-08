@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 .card {
     height: 350px;
     width: 250px;
@@ -7,17 +9,21 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-    
+    background-image: linear-gradient(to right, #ceb7ff , #ccd2ff);
     box-shadow: 2px 2px grey;
+    color: darkslategrey;
+    font-family: 'Roboto Slab', serif;
 
     &__name{
         margin: 20px;
         height: 50px;
         text-align: center;
+        font-size: 25px;
     }
     &__role {
         margin: 10px;
         height: 70px;
         text-align: center;
+        font-size: 22.5px;
     }
 }
